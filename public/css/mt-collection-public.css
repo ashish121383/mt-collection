@@ -1,0 +1,97 @@
+.sidebar {
+    background-color: #fff;
+    padding: 0 20px;
+    border-radius: 5px;
+}
+
+.menu-list li a {
+    text-decoration: none;
+    color: #444;
+}
+
+.product-title {
+    margin: 10px 0px;
+}
+button.btn-collection {
+    font-size: 12px;
+   
+}
+
+.product-item {
+    border: 1px solid #ddd;
+    margin-bottom: 25px;
+}
+
+.product-item p {
+    font-size: 16px;
+    color: #777;
+}
+
+.collection-product{
+    display: flex;
+}
+
+.loadmore {
+    font-size: 26px;
+    color: #fff;
+    margin: 0 auto;
+    background: #cd3452;
+    text-align: center;
+    width: 25%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.custom-filter select {
+    width: 100;
+    /* color: #ddd; */
+    background-color: #fff;
+    padding: 10px 30px 10px 10px;
+    border: 1px solid #fff;
+}
+
+.find-collection {
+    padding: 12px;
+    margin-left: 20px;
+}
+
+.find-collection:hover{
+    text-decoration: none;
+}
+
+.mt-collection{
+    display: flex;
+}
+
+.create-collection {
+    cursor: pointer;
+}
+
+.create-collection select {
+    font-size: 16px;
+    height: 40px !important;
+}
+
+.create-collection button {
+    width: 15%;
+    height: 38px;
+    font-size: 14px !important;
+    margin: 10px 10px;
+    border: none !important;
+}
+
+.success {
+    color: green;
+    font-size: 18px;
+    margin: 12px;
+}
+
+.custom-loader {
+    display: flex;
+}
+
+.custom-loader img {
+    width: 120px;
+    height: 82px;
+}
